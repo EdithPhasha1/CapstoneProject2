@@ -1,0 +1,51 @@
+/* Style for the form container */
+.form-container {
+  max-width: 300px; /* Adjust the maximum width as per your preference */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 280px; /* Adjust the width of the input boxes */
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for error messages */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Style for submit button */
+button[type="submit"],
+button[type="button"] {
+  width: 50px; /* Make the button full-width */
+  background-color: pink;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for logout button */
+button[type="button"] {
+  background-color: #f44336;
+}
